@@ -13,7 +13,7 @@
 
 function myFunction() {
 list = ['Bones', 'Psych', 'Big Bang Theory', 'Mad Men'];
-r = Math.floor(Math.random() * 4 + 1);
+r = Math.floor((Math.random() * 4) + 1);
 // return list[r];
 document.write(list[r]);
 }
