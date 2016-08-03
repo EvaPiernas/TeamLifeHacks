@@ -5,3 +5,7 @@ h3.italic {
 body{
 	background-image: url("whitebg.png");
 }
+
+ul{
+	text-align: center;
+}
