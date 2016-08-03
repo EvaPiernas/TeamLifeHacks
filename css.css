@@ -5,3 +5,15 @@ h3.italic {
 body{
 	background-image: url("whitebg.png");
 }
+
+h1, h3{
+	text-align:center;
+}
+
+h1, h2, h3{
+	font-family: 'Aref Ruqaa', serif;
+}
+
+a{
+	text-align: center;
+}
