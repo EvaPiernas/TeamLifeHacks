@@ -5,14 +5,11 @@ function openRequestedPopup() {
     "lifehackshome.html",
     "DescriptiveWindowName",
     "resizable,scrollbars,status"
-    )};
+)};
+// random genrator button function
 
-// random generator button function
-var myShows = ['Bones', 'Psych', 'Big Bang Theory', 'Mad Men', 
-'Breaking Bad', 'Modern Family', 'Game of Thrones', 'Dexter']; 
-
-function show() { 
-myShows[Math.floor(Math.random() * myShows.length)]; 
+function myFunction() {
+list = ['Bones', 'Psych', 'Big Bang Theory', 'Mad Men'];
+r = Math.floor(Math.random() * 4);
+return list[r];
 }
-
-	
