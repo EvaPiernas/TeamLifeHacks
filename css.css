@@ -3,5 +3,5 @@ h3.italic {
 }
 
 body{
-	background-image: whitebg.png;
+	background-image: url("whitebg.png");
 }
