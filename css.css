@@ -6,6 +6,6 @@ body{
 	background-image: url("whitebg.png");
 }
 
-ul{
+ul, li{
 	text-align: center;
 }
