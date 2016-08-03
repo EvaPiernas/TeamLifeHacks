@@ -13,3 +13,7 @@ h1, h3{
 h1, h2, h3{
 	font-family: 'Aref Ruqaa', serif;
 }
+
+a{
+	align-items: center;
+}
