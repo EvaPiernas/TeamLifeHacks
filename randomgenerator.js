@@ -1,0 +1,1 @@
+var myArray = ['january', 'hjk','hhbfhe','nfhrb',]
