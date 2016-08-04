@@ -77,25 +77,43 @@ button:active {
   transform: translateY(4px);
 }
 
+#b1 {
+  display: block;
+  border-radius: 10px;
+  background-color: pink;
+  border: 5px solid black;
+  color: White;
+  text-align: center;
+  font-size: 35px;
+  padding: 30px;
+  width: 250px;
+  transition: all 0.5s;
+  cursor: wait;
+  margin: 10px;
+}
 
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="lifehackshome.html">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</head>
-<body>
+#b1 span {
+  cursor: crosshair;
+  display: inline-block;
+  position: relative;
+  transition: 1s;
+}
 
-<div class="jumbotron">
-  <h1>Bootstrap Tutorial</h1>
-  <p>Bootstrap</div>
+#b1 span:after {
+  content: ':)';
+  position: absolute;
+  opacity: .1;
+  top: 0;
+  right: -25px;
+  transition: 1s;
+}
 
-<div class="container">
-  <p>This is some text.</p>
-  <p>This is another text.</p>
-</div>
+#b1:hover span {
+  padding-right: 25px;
+}
 
-</body>
-</html>
+#b1:hover span:after {
+  opacity: .5;
+  right: 5;
+}
 
