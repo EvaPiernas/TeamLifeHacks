@@ -19,7 +19,7 @@
 // }
 
 function myFunction() {
-    list = [var lh, var lh1, var lh2, var lh3, var lh4, var lh5];
+    list = [lh, lh1, lh2, lh3, lh4, lh5];
     // this is so that we can keep the randy button 
 	r = Math.floor(Math.random() * 6);
     document.getElementById("randomValue").innerHTML = list[r];
