@@ -19,6 +19,17 @@ h1, h2, h3{
 
 button{
 	border: none;
+	display: inline-block;
+	padding: 15px 25px;
+	font-size: 24px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #999;
 }
 
 #b1{
@@ -53,22 +64,9 @@ button{
 #b8{
 	background-color: yellow;
 }
-
-button {
-  display: inline-block;
-  padding: 15px 25px;
-  font-size: 24px;
-  cursor: pointer;
-  text-align: center;
-  text-decoration: none;
-  outline: none;
-  color: #fff;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px #999;
+button:hover {
+	background-color: #3e8e41
 }
-
-button:hover {background-color: #3e8e41}
 
 button:active {
   background-color: #3e8e41;
@@ -99,7 +97,6 @@ div.desc {
     text-align: center;
 }
 
-=======
 #b1 {
   display: block;
   border-radius: 10px;
