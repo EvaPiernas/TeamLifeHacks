@@ -14,10 +14,20 @@ li {
 	font-size: 120%;
 }
 
-/*heading font*/
+/*heading format*/
 h1, h2, h3{
 	font-family: 'Aref Ruqaa', serif;
 	text-align:center;
+}
+
+/*heading size*/
+h1 {
+  font-size: 35px;
+}
+
+/*text size*/
+p {
+  font-size: 20px;
 }
 
 /*button press animation*/
@@ -38,7 +48,7 @@ button{
 
 /*button colors*/
 #b1{
-	background-color: red;
+	background-color: pink;
 }
 
 #b2{
@@ -46,7 +56,7 @@ button{
 }
 
 #b3{
-	background-color: yellow;
+	background-color: pink;
 }
 
 #b4{
@@ -63,11 +73,11 @@ button{
 
 #b7{
 
-	background-color: pink;
+	background-color: maroon;
 }
 
 #b8{
-	background-color: yellow;
+	background-color: maroon;
 }
 
 /*button hover animation*/
