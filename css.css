@@ -7,11 +7,11 @@ h3.italic {
 
 body{
 	background-image: url("whitebg.png");
-	font-family: 'Indie Flower', cursive;
 }
 
 li {
 	font-size: 120%;
+	font-family: 'Quicksand', sans-serif;
 }
 h1, h2, h3{
 	font-family: 'Aref Ruqaa', serif;
