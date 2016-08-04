@@ -35,7 +35,7 @@ button{
 	background-color: green;
 }
 
-#b5{
+#b5{      
 	background-color: blue;
 }
 
@@ -73,3 +73,26 @@ button:active {
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
+
+
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="lifehackshome.html">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="jumbotron">
+  <h1>Bootstrap Tutorial</h1>
+  <p>Bootstrap</div>
+
+<div class="container">
+  <p>This is some text.</p>
+  <p>This is another text.</p>
+</div>
+
+</body>
+</html>
+
