@@ -71,7 +71,7 @@ button{
 }
 
 #b5{      
-	background-color: blue;
+	background-color: darkseagreen;
 }
 
 #b6{
@@ -84,7 +84,12 @@ button{
 }
 
 #b8{
+<<<<<<< Updated upstream
 	background-color: maroon;
+=======
+	background-color: indianred;
+  font-size:300%;
+>>>>>>> Stashed changes
 }
 
 /*button hover animation*/
