@@ -8,26 +8,29 @@
 	<link href="https://fonts.googleapis.com/css?family=Aref+Ruqaa" rel="stylesheet">	
 </head>
 <body>
-<button onclick = "myFunction()">random___lifehacks</button>
+<!-- <button onclick = "myFunction()">random___lifehacks</button> -->
 <button onclick = "myFunction1()">random schoolhacks</button>
-<p id="randomValue1"></p>
+<p id="randomValue"></p>
 <script>
 
-function myFunction() {
-    list = ['Bones', 'Psych', 'Big Bang Theory', 'Mad Men'];
-	r = Math.floor(Math.random() * 4);
-    document.getElementById("randomValue").innerHTML = list[r];
+// function myFunction() {
+//     list = ['Bones', 'Psych', 'Big Bang Theory', 'Mad Men'];
+// 	r = Math.floor(Math.random() * 4);
+//     document.getElementById("randomValue").innerHTML = list[r];
 
 function myFunction1() {
-	var lh1 = "Instead of using google.com for essays, use scholar.google.com.  This will help you find more information easily."
-	var lh2 = "So you want to study, but you don&#39;t know what the best times to study are?"
-	// <img src="studyhack.jpg" height="200">
-	var lh3 = "Writing down your worries before a test has been proven to improve your test scores."
-	var lh4 = "You&#39;re 50% more likely to remember something if you speak it out loud instead of reading it over and over again."
-	var lh5 = "Retention rates are 60% higher if you study your notes within one day of taking them."
+	// var lh1 = "Instead of using google.com for essays, use scholar.google.com.  This will help you find more information easily."
+	// var lh2 = "So you want to study, but you don&#39;t know what the best times to study are?"
+	// // <img src="studyhack.jpg" height="200">
+	// var lh3 = "Writing down your worries before a test has been proven to improve your test scores."
+	// var lh4 = "You&#39;re 50% more likely to remember something if you speak it out loud instead of reading it over and over again."
+	// var lh5 = "Retention rates are 60% higher if you study your notes within one day of taking them."
+    
+    list1 = ["Instead of using google.com for essays, use scholar.google.com.  This will help you find more information easily.", "So you want to study, but you don&#39;t know what the best times to study are?" , "Writing down your worries before a test has been proven to improve your test scores." , "You&#39;re 50% more likely to remember something if you speak it out loud instead of reading it over and over again.", "Retention rates are 60% higher if you study your notes within one day of taking them." ];
+
     list1 = [var lh1, var lh2 , var lh3, var lh4, var lh5];
 	r1 = Math.floor(Math.random() * 5);
-    document.getElementById("randomValue1").innerHTML = list[r1];
+    document.getElementById("randomValue").innerHTML = list[r1];
 } </script>
 </body>
 </html>
