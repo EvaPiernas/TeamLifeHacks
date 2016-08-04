@@ -13,5 +13,15 @@ h1, h2, h3{
 
 button{
 	border: none;
-	color: red;
 }
+
+<<<<<<< Updated upstream
+.b1{
+	background-color: #FF0000;
+}
+=======
+a{
+	text-align: center;
+}
+
+>>>>>>> Stashed changes

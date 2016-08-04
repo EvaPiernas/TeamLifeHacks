@@ -1,3 +1,2 @@
 # TeamLifeHacks
-GWC final projects
-hi
+This is the readme
