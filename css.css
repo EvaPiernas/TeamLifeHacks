@@ -1,4 +1,4 @@
-homepage quote*/
+/*homepage quote*/
 h3.italic {
 	font-style: italic;
 }
@@ -28,14 +28,11 @@ h2 {
   font-size: 35px;
 }
 
-<<<<<<< HEAD
 /*text size*/
-=======
 h3 {
   font-size: 25px;
 }
 
->>>>>>> origin/master
 p {
   font-size: 20px;
 }
