@@ -142,4 +142,18 @@ background-color: #87CEFA
 	width: 70%;
 	margin: auto;
 }
-	
+
+/*change the side of carousel*/
+.carousel-control.right, .carousel-control.left {
+ background-image: none;
+}
+
+.glyphicon-chevron-left, .glyphicon-chevron-right{
+color: black;
+}
+
+
+
+
+
+
