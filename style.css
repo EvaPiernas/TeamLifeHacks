@@ -132,8 +132,11 @@ div.desc {
 
 /*jumbotron color*/
 .jumbotron{
-background-color: #87CEFA	
+background-color: #87CEFA;	
+ min-height: 400px; 
 }
-
+/*br{
+line-height: 10px;	
+}*/
 
 
