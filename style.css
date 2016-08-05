@@ -6,24 +6,27 @@ h3.italic {
 
 /*body text font and background image*/
 body{
-	background-image: url("whitebg.png");
+	background-image:"white";
 	font-family: 'Quicksand', cursive;
+	
 }
 
 /*life hacks lists font size*/
 li {
-	font-size: 120%;
+	font-size: 120px;
+}
+.jumbotron{
+font-size: 400px;
 }
 
 /*heading format*/
 h1, h2, h3{
-	font-family: 'Aref Ruqaa', serif;
 	text-align:center;
 }
 
 /*heading and text sizes*/
 h1 {
-  font-size: 50px;
+  font-size: 100px;
 }
 
 h2 {
@@ -124,12 +127,6 @@ div.img img {
 div.desc {
     padding: 15px;
     text-align: left;
-}
-
-/*Jumbotron size*/
-
-h1{
-	font-size: 100px
 }
 
 
