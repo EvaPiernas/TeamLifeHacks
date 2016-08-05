@@ -13,7 +13,7 @@ body{
 
 /*life hacks lists font size*/
 li {
-	font-size: 120px;
+	font-size: 120%;
 }
 .jumbotron{
 font-size: 400px;
