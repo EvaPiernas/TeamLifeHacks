@@ -6,7 +6,7 @@ h3.italic {
 
 /*body text font and background image*/
 body{
-	background-image:"white";
+	background:"white";
 	font-family: 'Quicksand', cursive;
 	
 }
