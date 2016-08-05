@@ -135,5 +135,10 @@ div.desc {
 background-color: #87CEFA	
 }
 
-
-
+/*carousel css*/
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+	width: 70%;
+	margin: auto;
+}
+	
