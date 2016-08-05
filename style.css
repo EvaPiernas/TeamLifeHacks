@@ -4,7 +4,7 @@ h3.italic {
 	font-style: italic;
 }
 
-/*body text font and background image*/
+/*body text font and background color*/
 body{
 	background:"white";
 	font-family: 'Quicksand', cursive;
@@ -21,6 +21,7 @@ font-size: 400px;
 
 /*heading format*/
 h1, h2, h3{
+	font-family: 'Aref Ruqaa' ;
 	text-align:center;
 	background-color: #87CEFA;
 }
@@ -132,16 +133,8 @@ div.desc {
 
 /*jumbotron color*/
 .jumbotron{
-background-color: #87CEFA;	
- min-height: 400px; 
+background-color: #87CEFA	
 }
-
-/*br{
-line-height: 10px;	
-}*/
-
-
-=======
 
 /*carousel css*/
 .carousel-inner > .item > img,
@@ -150,4 +143,3 @@ line-height: 10px;
 	margin: auto;
 }
 	
->>>>>>> origin/master
