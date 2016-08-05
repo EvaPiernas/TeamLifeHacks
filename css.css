@@ -72,7 +72,7 @@ button{
 }
 
 #b5{      
-	background-color: darkseagreen;
+	background-color: blue;
 }
 
 #b6{
@@ -87,10 +87,10 @@ button{
 #b8{
 
 	background-color: maroon;
-
 	background-color: indianred;
-  font-size:300%;
+	font-size:300%;
 
+}
 
 /*button hover animation*/
 button:active {
@@ -127,9 +127,18 @@ div.desc {
 }
 
 /*Jumbotron size*/
+<<<<<<< HEAD
 
 test.jumbotron { min-height: 1000px; }
 
+=======
+.jumbotron {
+background-image:url('../bg.png');
+background-attachment: fixed;
+min-height: 1000px
+margin-bottom: 0px;
+}
+>>>>>>> origin/master
 
 
 
