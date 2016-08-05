@@ -6,14 +6,14 @@ h3.italic {
 
 /*body text font and background image*/
 body{
-	background-image:"white";
+	background:"white";
 	font-family: 'Quicksand', cursive;
 	
 }
 
 /*life hacks lists font size*/
 li {
-	font-size: 120px;
+	font-size: 120%;
 }
 .jumbotron{
 font-size: 400px;
@@ -135,8 +135,19 @@ div.desc {
 background-color: #87CEFA;	
  min-height: 400px; 
 }
+
 /*br{
 line-height: 10px;	
 }*/
 
 
+=======
+
+/*carousel css*/
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+	width: 70%;
+	margin: auto;
+}
+	
+>>>>>>> origin/master
