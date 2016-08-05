@@ -114,7 +114,7 @@ div.img:hover {
     border: 1px solid #777;
 }
 
-/*image dciv size*/
+/*image div size*/
 div.img img {
     width: 100%;
     height: auto;
@@ -126,4 +126,10 @@ div.desc {
     text-align: left;
 }
 
-/*.jumbotron { min-height: 600px; }*/
+/*Jumbotron size*/
+
+test.jumbotron { min-height: 1000px; }
+
+
+
+
