@@ -61,11 +61,11 @@ button{
 
 /*button colors*/
 #b1{
-	background-color: red;
+	background-color: #FF0000;
 }
 
 #b2{
-	background-color: orange;
+	background-color: #FFA500;
 }
 
 #b3{
@@ -73,24 +73,24 @@ button{
 }
 
 #b4{
-	background-color: green;
+	background-color: #008000;
 }
 
 #b5{      
-	background-color: blue;
+	background-color: #0000FF;
 }
 
 #b6{
-	background-color: purple;
+	background-color: #800080;
 }
 
 #b7{
 
-	background-color: lavender;
+	background-color: #E6E6FA;
 }
 
 #b8{
-	background-color: indianred;
+	background-color: #CD5C5C;
 	font-size:300%;
 }
 
@@ -146,7 +146,7 @@ background-color: #87CEFA
 }
 
 .glyphicon-chevron-left, .glyphicon-chevron-right{
-color: black;
+color: #000000;
 }
 
 
