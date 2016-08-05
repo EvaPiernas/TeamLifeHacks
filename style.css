@@ -64,24 +64,48 @@ button{
 	background-color: #FF0000;
 }
 
+#b1:hover{
+	background-color: #DF0000;
+}
+
 #b2{
 	background-color: #FFA500;
+}
+
+#b2:hover{
+	background-color: #DF9000;
 }
 
 #b3{
 	background-color: #FFE100;
 }
 
+#b3:hover{
+	background-color: #DFC500;
+}
+
 #b4{
 	background-color: #008000;
+}
+
+#b4:hover{
+	background-color: #007000;
 }
 
 #b5{      
 	background-color: #0000FF;
 }
 
+#b5:hover{
+	background-color: #0000DF;
+}
+
 #b6{
 	background-color: #800080;
+}
+
+#b6:hover{
+	background-color: #700070;
 }
 
 #b7{
@@ -89,9 +113,17 @@ button{
 	background-color: #E6E6FA;
 }
 
+#b7:hover{
+	background-color: #C9C9DB;
+}
+
 #b8{
 	background-color: #CD5C5C;
 	font-size:300%;
+}
+
+#b8:hover{
+	background-color: #B35151;
 }
 
 /*button hover animation*/
