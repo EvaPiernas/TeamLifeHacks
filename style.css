@@ -22,6 +22,7 @@ font-size: 400px;
 /*heading format*/
 h1, h2, h3{
 	text-align:center;
+	background-color: #87CEFA;
 }
 
 /*heading and text sizes*/
@@ -128,5 +129,11 @@ div.desc {
     padding: 15px;
     text-align: left;
 }
+
+/*jumbotron color*/
+.jumbotron{
+background-color: #87CEFA	
+}
+
 
 
