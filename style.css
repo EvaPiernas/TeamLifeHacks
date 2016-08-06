@@ -181,8 +181,33 @@ background-color: #87CEFA
 color: #000000;
 }
 
+/*other jumbotron color*/
+.other-jumbotron{
+background-color: 	#F5F5F5
+}
 
+/*navbar style*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:	#87CEFA;
+}
 
+li {
+    float: left;
+}
 
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
 
+li a:hover {
+    background-color: #111;
+}
 
