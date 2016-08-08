@@ -189,7 +189,7 @@ color: #000000;
 #j2{
 	background-color: pink;
 }
-<<<<<<< HEAD
+
 
 
 /*.gap-left {
@@ -199,7 +199,7 @@ color: #000000;
 .gap-right {
   margin-left: 0px; 
 }*/
-=======
+
 /*what is this?*/
 .gap-left {
   margin-right: 10px; 
@@ -330,4 +330,4 @@ color: #000000;
 	-webkit-transition-delay: 0.2s;
 	transition-delay: 0.2s;
 }
->>>>>>> origin/master
+
