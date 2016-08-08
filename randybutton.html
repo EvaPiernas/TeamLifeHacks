@@ -21,8 +21,9 @@
 <center><button id="b8" onclick = myFunction()>GET YO RANDOM LIFE HACK</button></center>
 <br>
 <center><p id="randomValue"></p></center>
+<img id="picvalue" src="http://r.ddmcdn.com/s_f/o_1/cx_633/cy_0/cw_1725/ch_1725/w_720/APL/uploads/2014/11/too-cute-doggone-it-video-playlist.jpg"> 
 <script>
-// Clothing hacks
+// Clothing hacks:kerryann
 var lh = "Tired of lint and other materials from your clothes on an outfit you have? Just use a razor to take them off. If there are any leftovers afterward, just use tape."
 var lh1 = "Use a sharpie to cover bleach stains"
 var lh2 = "In need of jeans but don&#39;t have time to try them on? Just put the waistline of your jeans around your neck and see if it fits."
@@ -30,28 +31,28 @@ var lh3 = "Stop sweaters from shedding by putting them in your freezer."
 var lh4 = "Using dish soap will help remove oil stains."
 var lh5 = "Wash sneakers with baking soda, detergent and a toothbrush to liven them up."
 
-// School hacks
+// School hacks:soamai
 var lh6 = "Instead of using google.com for essays, use scholar.google.com. This will help you find more information easily."
 var lh7 = "So you want to study, but you don't know what the best times to study are?"
 var lh8 = "Writing down your worries before a test has been proven to improve your test scores."
 var lh9 ="You're 50% more likely to remember something if you speak it out loud instead of reading it over and over again."
 var lh10  ="Retention rates are 60% higher if you study your notes within one day of taking them."
 
-// Food hacks
+// Food hacks:sasha
 var lh11 = "Yogurt can be substituted for almost anything (Butter, milk, oil, etc.)."
 var lh12 = "Want to make the perfect ice cream sandwich? Here's how:"
 var lh13 = "Bake cookies on an upside-down muffin tin to make cookie bowls."
 var lh14 = "Use unglazed ceramic tile to make your own homemade brick oven."
 var lh15 = "Layering a slice of lemon on a cut avocado will keep it green for longer."
 
-// Girls hacks
+// Girls hacks:eva
 var lh16 = "Put clear nail polish on the inside of your rings to prevent having green stains."
 var lh17 = "Hang your purses with shower curtain hooks."
 var lh18 = "Pour white wine over red wine stains to neutralize the red stain."
 var lh19 = "Paint your keys with nail polish to easily distinguish the sets."
 var lh20 = "Put pool noodles in your boots to keep them upright."
 
-// Health hacks
+// Health hacks:kerryann
 var lh21 = "If you&#39;re trying to quit smoking, go to a sauna for 3 days in a row. It&#39;ll help sweat off the nicotine, making it easier to quit."
 var lh22 = "You can shrink a pimple in minutes by putting a dab of Listerine on it. The alcohol helps the pimple dry up and fade away."
 var lh23 = "The gel from an Advil liquid gel will cure a pimple asap."
@@ -59,7 +60,7 @@ var lh24 = "Eat marshmallows when you have a bad sore throat."
 var lh25 = "30 minutes of exercise can make you 10% smarter."
 var lh26 = "Smell the skin of an ornange for a natural mood booster."
 
-// Technology hacks
+// Technology hacks:eva
 var lh27 = "Want a quick way to unfreeze a frozen phone? Plug it into its charger."
 var lh28 = "Laptop batteries can last longer if you charge them up to only 80% instead of the full 100%."
 var lh29 = "If you buy a product on Amazon, and there is a price drop within 7 days, you can get a refund on the price difference."
@@ -68,9 +69,12 @@ var lh31 = "Have an old cassette case lying around? Don'st chuck it out, use it 
 
 function myFunction() {
     list = [lh, lh1, lh2, lh3, lh4, lh5, lh6, lh7, lh8, lh9, lh10, lh11, lh12, lh13, lh14, lh15, lh16, lh17, lh18, lh19, lh20, lh21, lh22, lh23, lh24, lh25, lh26, lh27, lh28, lh29, lh30, lh31];
+    piclist = ["razor.jpg","shapieclotheshack.jpg", "shirthack.jpeg", "shirthack.jpeg","shirthack.jpeg","studyhack.jpg","studyhack.jpg", "studyhack.jpg","studyhack.jpg","studyhack.jpg","icsandhack.jpg", "icsandhack.jpg","icsandhack.jpg","icsandhack.jpg","icsandhack.jpg","eyelinerhack.jpg", "eyelinerhack.jpg","eyelinerhack.jpg","eyelinerhack.jpg","eyelinerhack.jpg", "marshmellowhack.jpeg", "marshmellowhack.jpeg","marshmellowhack.jpeg","marshmellowhack.jpeg","marshmellowhack.jpeg","laptop.jpg", "laptop.jpg","laptop.jpg","laptop.jpg", "laptop.jpg"];
+
     // this is so that we can keep the randy button 
 	r = Math.floor(Math.random() * 30);
     document.getElementById("randomValue").innerHTML = list[r];
+    document.getElementById("picvalue").src = piclist[r];
     }
 </script>
 </body>
