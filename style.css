@@ -180,38 +180,3 @@ background-color: #87CEFA
 .glyphicon-chevron-left, .glyphicon-chevron-right{
 color: #000000;
 }
- 
-/*second jumbotron color
-#jombo1{
-background-color: #D2B48C
-}
-
-/*other jumbotron color
-.other-jumbotron{
-background-color: 	#F5F5F5
-}
-
-navbar style
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color:	#87CEFA;
-}*/
-
-/*li {
-    float: left;
-}*/
-
-/*li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover {
-    background-color: #111;
-}*/
