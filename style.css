@@ -161,7 +161,7 @@ div.desc {
 }
 
 /*jumbotron color*/
-.jumbotron{
+#j1{
 background-color: #87CEFA	
 }
 
@@ -181,6 +181,6 @@ background-color: #87CEFA
 color: #000000;
 }
 
-#pagebottom{
+#j2{
 	background-color: pink;
 }
