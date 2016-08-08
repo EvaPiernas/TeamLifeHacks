@@ -180,3 +180,7 @@ background-color: #87CEFA
 .glyphicon-chevron-left, .glyphicon-chevron-right{
 color: #000000;
 }
+
+#pagebottom{
+	background-color: pink;
+}
