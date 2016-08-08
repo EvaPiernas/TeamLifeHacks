@@ -208,7 +208,7 @@ color: #000000;
     text-align: center;
     cursor: default;
 }
-.hovereffect .overlay {
+.hovereffect.overlay {
     width: 100%;
     position: absolute;
     overflow: hidden;
