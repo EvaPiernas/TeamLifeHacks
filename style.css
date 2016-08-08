@@ -184,13 +184,14 @@ color: #000000;
 /*second jumbotron color*/
 #jombo1{
 background-color: #D2B48C
+}
 
 /*other jumbotron color*/
 .other-jumbotron{
 background-color: 	#F5F5F5
+}
 
-
-/*navbar style*/
+navbar style
 ul {
     list-style-type: none;
     margin: 0;
