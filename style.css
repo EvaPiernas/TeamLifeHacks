@@ -187,10 +187,11 @@ color: #000000;
 	background-color: pink;
 }
 
-.gap-left {
-  margin-right: 10px; 
+
+/*.gap-left {
+  margin-right: 0px; 
 }
 
 .gap-right {
-  margin-left: 10px; 
-}
+  margin-left: 0px; 
+}*/
