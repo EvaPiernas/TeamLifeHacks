@@ -40,7 +40,7 @@ h3 {
 }
 
 p {
-  font-size: 20px;
+  font-size: 26px;
 }
 
 /*button press animation*/
@@ -61,40 +61,69 @@ button{
 
 /*button colors*/
 #b1{
-	background-color: red;
+	background-color: #FF0000;
+}
+
+#b1:hover{
+	background-color: #DF0000;
 }
 
 #b2{
-	background-color: orange;
+	background-color: #FFA500;
+}
+
+#b2:hover{
+	background-color: #DF9000;
 }
 
 #b3{
 	background-color: #FFE100;
 }
 
+#b3:hover{
+	background-color: #DFC500;
+}
+
 #b4{
-	background-color: green;
+	background-color: #008000;
+}
+
+#b4:hover{
+	background-color: #007000;
 }
 
 #b5{      
-	background-color: blue;
+	background-color: #0000FF;
+}
+
+#b5:hover{
+	background-color: #0000DF;
 }
 
 #b6{
-	background-color: purple;
+	background-color: #800080;
+}
+
+#b6:hover{
+	background-color: #700070;
 }
 
 #b7{
 
-	background-color: lavender;
+	background-color: #E6E6FA;
+}
+
+#b7:hover{
+	background-color: #C9C9DB;
 }
 
 #b8{
-
-	background-color: maroon;
-	background-color: indianred;
+	background-color: #CD5C5C;
 	font-size:300%;
+}
 
+#b8:hover{
+	background-color: #B35151;
 }
 
 /*button hover animation*/
@@ -149,15 +178,40 @@ background-color: #87CEFA
 }
 
 .glyphicon-chevron-left, .glyphicon-chevron-right{
-color: black;
+color: #000000;
 }
-
+ 
 /*second jumbotron color*/
 #jombo1{
 background-color: #D2B48C
+
+/*other jumbotron color*/
+.other-jumbotron{
+background-color: 	#F5F5F5
+
+
+/*navbar style*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:	#87CEFA;
 }
 
+li {
+    float: left;
+}
 
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
 
-
+li a:hover {
+    background-color: #111;
+}
 
