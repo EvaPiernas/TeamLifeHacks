@@ -109,16 +109,15 @@ button{
 
 #b7{
 
-	background-color: #E6E6FA;
+	background-color: #625AC6;
 }
 
 #b7:hover{
-	background-color: #C9C9DB;
+	background-color: #564FAD;
 }
 
 #b8{
 	background-color: #CD5C5C;
-	font-size:300%;
 }
 
 #b8:hover{
@@ -126,7 +125,11 @@ button{
 }
 
 #b9{
-background-color: #FFF0F5;
+background-color: #31F056;
+}
+
+#b9:hover{
+background-color: #2BD24B;
 }
 
 /*button hover animation*/
