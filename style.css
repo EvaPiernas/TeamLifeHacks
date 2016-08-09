@@ -4,9 +4,8 @@ h3.italic {
 	font-style: italic;
 }
 
-/*body text font and background color*/
+/*body text font*/
 body{
-	background:"white";
 	font-family: 'Quicksand', cursive;
 	
 }
