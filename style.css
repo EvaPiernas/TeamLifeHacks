@@ -168,6 +168,9 @@ div.desc {
 /*jumbotron color*/
 #j1{
 background-color: #87CEFA	
+
+.jumbotron{
+background-color: #F5F5F5	
 }
 
 /*carousel css*/
@@ -196,6 +199,19 @@ color: #000000;
 /*.gap-left {
   margin-right: 0px; 
 }
+/*other jumbotron color*/
+.other-jumbotron{
+background-color: #F5F5F5
+}
+
+/*navbar style*/
+/*ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: none ;
+}*/
 
 .gap-right {
   margin-left: 0px; 
@@ -246,3 +262,8 @@ color: #000000;
 .buffer {
     background-color: #323b43;
 }
+/*.br{
+
+}
+*/
+
