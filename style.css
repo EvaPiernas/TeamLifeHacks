@@ -212,3 +212,8 @@ color: #000000;
 .buffer {
     background-color: #323b43;
 }
+
+
+.img-rounded {
+    border-radius: 6%;
+}
