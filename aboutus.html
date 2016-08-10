@@ -24,16 +24,6 @@ She currently resides in Cambridge, Massachusetts with her mom, dad, and sister.
 <p>She's a rising junior at Kipp Academy Lynn. She likes to hang out with her friends, watching TV shows, and trying out new things. She currently resides in Lynn, Massachusetts with her uncle, grandma, mom, and sister.</p>
 <!-- page bottom -->
 <div class="jumbotron" id="j2"> 
-<!-- AddToAny BEGIN -->
-<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
-<a class="a2a_button_facebook"></a>
-<a class="a2a_button_pinterest"></a>
-<a class="a2a_button_twitter"></a>
-<a class="a2a_button_tumblr"></a>
-<a class="a2a_button_google_gmail"></a>
-<a class="a2a_button_google_plus"></a>
-<a class="a2a_button_print"></a>
-</div>
 <script>
 var a2a_config = a2a_config || {};
 a2a_config.onclick = 1;
@@ -41,5 +31,34 @@ a2a_config.onclick = 1;
 <script async src="https://static.addtoany.com/menu/page.js"></script>
 <!-- AddToAny END -->
 </div>
+
+
+<!-- This is for the sharing buttons  -->
+<!-- Facebook Share Button -->
+<a class="btnz share facebook" href="http://www.facebook.com/sharer/sharer.php?u=https://www.mylifehacks.herokuapp.com/"><i class="fa fa-facebook"></i> Share</a>
+<!-- Googple Plus Share Button -->
+<a class="btnz share gplus" href="https://plus.google.com/share?url=https://plus.google.com/"><i class="fa fa-google-plus"></i> Share</a>
+<!-- Twitter Share Button -->
+<a class="btnz share twitter" href="https://twitter.com/intent/tweet?text=YOUR-TEXT&url=https://twitter.com/&via=TWITTER-HANDLER"><i class="fa fa-twitter"></i> Tweet</a>
+<!-- Stumbleupon Share Button -->
+<a class="btnz share stumbleupon" href="http://www.stumbleupon.com/submit?url=http://www.stumbleupon.com/&title=YOUR-TITLE"><i class="fa fa-stumbleupon"></i> Stumble</a>
+<!-- Pinterest Share Button -->
+<a class="btnz share pinterest" href="http://pinterest.com/pin/create/button/?url=https://www.pinterest.com/&description=YOUR-DESCRIPTION&media=YOUR-IMAGE-SRC"><i class="fa fa-pinterest"></i> Pin it</a>
+<!-- LinkedIn Share Button -->
+<a class="btnz share linkedin" href="http://www.linkedin.com/shareArticle?mini=true&url=https://www.linkedin.com/&title=YOUR-TITLE&source=YOUR-URL"><i class="fa fa-linkedin"></i> LinkedIn</a>
+<!-- open in new window -->
+<script type="text/javascript">
+    jQuery(document).ready(function($) {
+   $('.share').click(function() {
+     var NWin = window.open($(this).prop('href'), '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');
+     if (window.focus)
+     {
+       NWin.focus();
+     }
+     return false;
+    });
+});
+</script>
+
 </body>
 </html>
