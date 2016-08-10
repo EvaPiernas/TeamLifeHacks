@@ -74,12 +74,13 @@ function myFunction() {
     piclist = ["razor.jpg","sharpie.jpg", "waistwrap.jpg", "freezesweater.jpg","dishsoap.jpg", "shoes.jpeg", "google.png", "studyhack.jpg", "writing.jpg", "talking.jpg", "studying.jpeg", "Yogurthack.jpg" ,"icsandhack.jpg", "cookiehack.png", "ovenhack.jpg", "avocadohack.jpg", "ring.jpeg", "purse.jpg", "stain.jpg",  "keys.jpg", "boots.jpeg", "smoking.jpg", "mouthwash.jpg", "advil.jpg", "marshmellow.jpg", "exercise.jpg", "orange.jpg", "plugin.jpg", "battery.jpg", "amazon.png", "tv.jpg", "cassette.jpg"];
 
 
-    // this is so that we can keep the randy button 
+    // this is so that we random generator button can work, the "randomvalue" is for 'storing' the inforamtion, it's like an empty textbox where we can store information.  
 	r = Math.floor(Math.random() * 30);
     document.getElementById("randomValue").innerHTML = list[r];
 
     document.getElementById("picvalue").src = piclist[r];
     }
+
 </script>
 <div class="jumbotron" id="j2">
 
