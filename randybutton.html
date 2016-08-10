@@ -21,7 +21,7 @@
 <center><button id="b8" onclick = myFunction()>GET YO RANDOM LIFE HACK</button></center>
 <br>
 <center><p id="randomValue"></p></center>
-<img id="picvalue" src="http://r.ddmcdn.com/s_f/o_1/cx_633/cy_0/cw_1725/ch_1725/w_720/APL/uploads/2014/11/too-cute-doggone-it-video-playlist.jpg"> 
+<center><img id="picvalue" src="http://r.ddmcdn.com/s_f/o_1/cx_633/cy_0/cw_1725/ch_1725/w_720/APL/uploads/2014/11/too-cute-doggone-it-video-playlist.jpg" width="300" height="300"></center> 
 <script>
 // Clothing hacks:kerryann
 var lh = "Tired of lint and other materials from your clothes on an outfit you have? Just use a razor to take them off. If there are any leftovers afterward, just use tape."
@@ -71,9 +71,11 @@ function myFunction() {
 
     piclist = ["razor.jpg","sharpie.jpg", "waistwrap.jpg", "freezesweater.jpg","dishsoap.jpg", "shoes.jpeg", "google.png", "studyhack.jpg", "writing.jpg", "talking.jpg", "studying.jpeg", "Yogurthack.jpg" ,"icsandhack.jpg", "cookiehack.png", "ovenhack.jpg", "avocadohack.jpg", "ring.jpeg", "purse.jpg", "stain.jpg",  "keys.jpg", "boots.jpeg", "smoking.jpg", "mouthwash.jpg", "advil.jpg", "marshmellow.jpg", "exercise.jpg", "orange.jpg", "plugin.jpg", "battery.jpg", "amazon.png", "tv.jpg", "cassette.jpg"];
 
+
     // this is so that we can keep the randy button 
 	r = Math.floor(Math.random() * 30);
     document.getElementById("randomValue").innerHTML = list[r];
+
     document.getElementById("picvalue").src = piclist[r];
     }
 </script>
